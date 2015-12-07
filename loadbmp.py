@@ -42,19 +42,19 @@ print ('Posición: ', pos_max_total[0]+2, pos_max_total[1]+2)
 mapeo_rojo = MapearEntorno(rojo, ancho, alto)
 max_rojo = max(mapeo_rojo)
 print ('Máximo rojo: ', max_rojo)
-pos_max_rojo = Coordenadas2d(mapeo_rgb.index(max_rojo), ancho-2, alto-2)
+pos_max_rojo = Coordenadas2d(mapeo_rojo.index(max_rojo), ancho-2, alto-2)
 print ('Posición: ', pos_max_rojo[0]+2, pos_max_rojo[1]+2)
 
 mapeo_verde = MapearEntorno(verde, ancho, alto)
 max_verde = max(mapeo_verde)
 print ('Máximo verde: ', max_verde)
-pos_max_verde = Coordenadas2d(mapeo_rgb.index(max_verde), ancho-2, alto-2)
+pos_max_verde = Coordenadas2d(mapeo_verde.index(max_verde), ancho-2, alto-2)
 print ('Posición: ', pos_max_verde[0]+2, pos_max_verde[1]+2)
 
 mapeo_azul = MapearEntorno(azul, ancho, alto)
 max_azul = max(mapeo_azul)
 print ('Máximo azul: ', max_azul)
-pos_max_azul = Coordenadas2d(mapeo_rgb.index(max_azul), ancho-2, alto-2)
+pos_max_azul = Coordenadas2d(mapeo_azul.index(max_azul), ancho-2, alto-2)
 print ('Posición: ', pos_max_azul[0]+2, pos_max_azul[1]+2)
 
 #vamos a fijarnos en la zona que nos interesa.
