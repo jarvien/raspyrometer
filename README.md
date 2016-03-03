@@ -1,4 +1,4 @@
-# tfg-raspy
+# raspyrometer
 Setting up a pyrometer based on a raspberry pi with camera module.
 Requirements:
 -Python 2.7
